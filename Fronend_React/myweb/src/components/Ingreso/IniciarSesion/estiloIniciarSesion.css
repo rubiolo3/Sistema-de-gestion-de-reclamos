@@ -1,0 +1,23 @@
+.fondo-gris-oscuro {
+    background: linear-gradient(to right, #87CEEB, white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centrar-formulario {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 60%; 
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .centrar-formulario .btn-primary {
+    margin-top: 10px;
+  }

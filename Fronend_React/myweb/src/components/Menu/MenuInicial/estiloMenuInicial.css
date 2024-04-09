@@ -1,0 +1,14 @@
+.menu-inicial-container {
+    margin: 10px 30px; 
+    padding: 10px; 
+    max-width: 1500px; 
+  }
+  
+  .menu-inicial-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .menu-inicial-container p {
+    margin-bottom: 20px;
+    color: black;
+  }

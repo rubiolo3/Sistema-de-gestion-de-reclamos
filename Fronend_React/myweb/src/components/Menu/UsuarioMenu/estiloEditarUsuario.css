@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to right, #87CEEB, white); 
+    height: 100vh;
+    margin: 0; 
+  }
+
+  .container {
+    background-color: white; 
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #0f5faf;
+    border-radius: 5px;
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+
+  h2 {
+    color: #007bff;
+  }
+
+  p {
+    color: #6c757d;
+  }
+
+  .form-label {
+    font-weight: bold;
+  }
+
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px; 
+    width: 100%; 
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* estiloEditarUsuario.css */
+[disabled] {
+  background-color: #e9ecef; /* Color de fondo sombreado */
+  cursor: not-allowed; /* Cambia el cursor al intentar interactuar con el campo */
+}

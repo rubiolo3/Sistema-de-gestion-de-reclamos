@@ -1,0 +1,50 @@
+.registro-container {
+    background: linear-gradient(to right, #87CEEB, white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .registro-formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px; 
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+  }
+  
+
+  .registro-formulario .btn-primary,
+  .registro-formulario .btn-secondary {
+    margin-top: 15px; 
+    width: 100%; 
+  }
+  
+  .registro-formulario Form.Group {
+    margin-bottom: 15px;
+  }
+  
+  .registro-formulario Form.Label {
+    font-weight: bold;
+  }
+  
+
+  .registro-formulario .centro-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .registro-formulario .opciones-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .registro-formulario .opcion {
+    width: 48%; 
+  }
